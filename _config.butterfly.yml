@@ -1,0 +1,53 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 林锦泰
+author: 林锦泰
+
+# 顶部图片
+default_top_img: https://image.photocnc.com/aoaodcom/2019-10/17/201910170835531c2d9e77011cbc0f3839f9f492031b30.jpg.h3980.webp
+
+# 顶部导航
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标籤: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+# 侧边栏
+aside:
+  position: left
+
+# 头像
+avatar:
+  img: https://lh3.googleusercontent.com/proxy/u8-dRm_tAyzvoM3MTIPKNtD3JjGV9lt2OCC3JgqeBT1cGdIEzpQSYxhRCkN-W0SdleavUYDNjiyqXb4EspdzWxmPOoBCMcLG0bkRPTplMIYDwT8R5Ps
+  effect: false # 头像会一直转圈
+
+# 社交图标
+social:
+  fab fa-github: https://github.com/xxxxx || Github
+  fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+
+# electric_clock
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/loading.gif #加载动画自定义
+
+  default_top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
