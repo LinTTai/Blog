@@ -24,7 +24,9 @@ menu:
 
 # 侧边栏
 aside:
-  position: left
+  enable: true
+  mobile: true
+  position: right
 
 # 头像
 avatar:
